@@ -44,12 +44,26 @@
 		<!-- Main -->
 			<div id="main">
 
-				<!-- One -->
+				<!-- One: Typewriter -->
 					<section id="one">
 						<header class="major">
 							<h2>
-							<span is="type-async" id="type-text">...</span>
-							<span class="blinking-cursor">_</span> </h2>
+							My main driving force is
+							
+								<div id="typewriter"></div>
+								<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+								<script type="text/javascript">
+								  const instance = new Typewriter('#typewriter', {
+									strings: ['Family', '<strong>Sports</strong>', 'Data', '<strong>Leadership</strong>'],
+									autoStart: true,
+									loop: true,
+								  });
+								</script>
+							</h2>
+							  
+
+							
+							
 						</header>
 						
 
@@ -524,6 +538,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>
