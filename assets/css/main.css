@@ -3188,7 +3188,6 @@ input, select, textarea {
 	#header {
 		padding: 6em 3em 3em 3em;
 		width: 30%;
-		max-width: 30%;
 	}
 		#header h1 {
 			font-size: 1.25em;
@@ -3210,7 +3209,7 @@ input, select, textarea {
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
-				max-width: 30%;
+				
 			}
 
 				#header h1 {
