@@ -3270,6 +3270,18 @@ input, select, textarea {
 		}
 	}
 
+			/* Main */
+
+			#main {
+				margin-left: 30%;
+				max-width: none;
+				padding: 5em 3em 3em 3em;
+				width: calc(100% - 30%);
+			}
+
+	}
+
+
 /* Large */
 
 	@media screen and (max-width: 1280px) {
