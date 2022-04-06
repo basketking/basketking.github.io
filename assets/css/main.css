@@ -138,7 +138,7 @@ input, select, textarea {
 		color: #787878;
 		font-weight: 400;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2881,13 +2881,13 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 2em 2em 2em 2em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
+			margin: 0em 0 0 0;
 			padding: 4em 0 0 0;
 		}
 
@@ -2902,9 +2902,14 @@ input, select, textarea {
 
 /* Add a black background color to the top navigation */
 .topnav {
-	background: linear-gradient(180deg, rgba(5,22,34,1) 0%, rgba(5,22,34,1) 70%, rgba(222,185,146,1) 1000%);
+	background: linear-gradient(180deg, rgba(5,22,34,1) 0%, rgba(5,22,34,1) 70%, rgba(222,185,146,1) 1000%),
+	radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px);
 	overflow: hidden;
-  }
+	width:70%;
+	position: absolute;
+	right: 0;
+	
+	  }
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -3304,7 +3309,7 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 5em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
 
