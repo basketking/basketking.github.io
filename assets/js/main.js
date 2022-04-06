@@ -124,7 +124,7 @@ const body = document.getElementsByTagName('BODY')[0];
 const button = document.getElementsByTagName('BUTTON')[0];
 
 function changeBackground(){
-  header.style.background = `linear-gradient(to right,${getDarkColor()},${getDarkColor()})`;
+  header.style.background = `linear-gradient(180deg ,rgba(5,22,34,1) 0%, rgba(5,22,34,1) 15%,${getDarkColor()})`;
 }
 
 function getDarkColor() {
@@ -185,9 +185,16 @@ $(document).keydown(function(event) {
   });
 
 
+// Menu Bar 
 
-
-
-
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+	  x.className += " responsive";
+	} else {
+	  x.className = "topnav";
+	}
+  }
 
 
