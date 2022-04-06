@@ -3437,6 +3437,13 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.wrapper{
+				background: None;
+				padding: 30px;
+				padding-top: 10%;
+				text-align: center;
+			}
+
 				#header h1 {
 					font-size: 1.35em;
 				}
@@ -3480,6 +3487,13 @@ input, select, textarea {
 			#header {
 				padding: 4.5em 1.5em;
 				width: 100%;
+			}
+
+			.wrapper{
+				background: None;
+				padding: 30px;
+				padding-top: 10%;
+				text-align: center;
 			}
 
 				#header h1 br {
