@@ -2905,7 +2905,7 @@ input, select, textarea {
 	background: linear-gradient(180deg, rgba(5,22,34,1) 0%, rgba(5,22,34,1) 70%, rgba(222,185,146,1) 1000%),
 	radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px);
 	overflow: hidden;
-	width:70%;
+	width:100%;
 	position: absolute;
 	right: 0;
 	
@@ -2947,16 +2947,16 @@ input, select, textarea {
 	  float: right;
 	  display: block;
 	}
-  }
+}
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
-	.topnav.responsive {position: relative;}
+	.topnav.responsive {position: absolute;}
 	.topnav.responsive a.icon {
 	  position: absolute;
 	  right: 0;
 	  top: 0;
-	}
+	  }
 	.topnav.responsive a {
 	  float: none;
 	  display: block;
@@ -3268,7 +3268,7 @@ input, select, textarea {
 		#header > .inner {
 			margin-bottom: 0;
 		}
-	}
+	
 
 			/* Main */
 
@@ -3279,7 +3279,7 @@ input, select, textarea {
 				width: calc(100% - 30%);
 			}
 
-	}
+		}
 
 
 /* Large */
@@ -3474,7 +3474,7 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 2.25em 1.5em 0.25em 1.5em;
+				padding: 4.5em 1.5em 0.25em 1.5em;
 			}
 
 				#main > section {
