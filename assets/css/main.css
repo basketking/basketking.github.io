@@ -2905,7 +2905,7 @@ input, select, textarea {
 	background: linear-gradient(180deg, rgba(5,22,34,1) 0%, rgba(5,22,34,1) 70%, rgba(222,185,146,1) 1000%),
 	radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px);
 	overflow: hidden;
-	width:100%;
+	width:70%;
 	position: absolute;
 	right: 0;
 	
@@ -2942,6 +2942,9 @@ input, select, textarea {
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
+	.topnav {
+		width: 100%;
+	}
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
 	  float: right;
@@ -2951,6 +2954,9 @@ input, select, textarea {
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
+	.topnav {
+		width: 100%;
+	}
 	.topnav.responsive {position: absolute;}
 	.topnav.responsive a.icon {
 	  position: absolute;
